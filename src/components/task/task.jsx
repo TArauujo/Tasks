@@ -1,10 +1,10 @@
 import styles from './task.module.css'
 
-function Task () {
+function Task (props) {
 
   return (
     <div className={styles.task}>
-      Task
+      {props.text}
     </div>
   )
 }

@@ -12,10 +12,10 @@ export default function HomePageComponent () {
         <h2>Lista de tarefas</h2>
         <Input type="text" placeholder="Digite uma tarefa" />
         <div className={styles.taskList}>
-          <Task text="Assistir os vídeos do SejaDev" />
-          <Task text="Se inscrever no canal"/>
-          <Task text="Ativar as notificações" />
-          <Task text="Seguir no instagram @seja.dev" />
+          <Task text="Nossaa veeelhoo!!" />
+          <Task text="Caraca hahahaha!!"/>
+          <Task text="Puuuuts!!" />
+          <Task text="Beleza, tá sabendo legal!" />
         </div>
       </div>
     </div>
