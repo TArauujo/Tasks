@@ -1,9 +1,12 @@
+import classNames from 'classnames'
 import styles from './task.module.css'
 
 function Task (props) {
 
   return (
-    <div className={`${styles.task} ${styles.completed} `}>
+    <div className={classNames(
+      styles.task
+    )}>
       {props.text}
     </div>
   )

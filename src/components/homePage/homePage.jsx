@@ -12,9 +12,9 @@ export default function HomePageComponent () {
         <h2>Lista de tarefas</h2>
         <Input type="text" placeholder="Digite uma tarefa" />
         <div className={styles.taskList}>
-          <Task text="Nossaa veeelhoo!!" />
+          <Task text="Nossaa veeelhoo!!" completed/>
           <Task text="Caraca hahahaha!!"/>
-          <Task text="Puuuuts!!" />
+          <Task text="Puuuuts!!" completed/>
           <Task text="Beleza, tá sabendo legal!" />
         </div>
       </div>
